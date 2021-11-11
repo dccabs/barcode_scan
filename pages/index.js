@@ -36,7 +36,7 @@ export default function Home() {
         target: videoRef.current,    // Or '#yourElement' (optional)
       },
       decoder : {
-        readers : ["code_128_reader"]
+        readers : ["code_39_reader"]
       }
     }, function(err) {
       if (err) {
