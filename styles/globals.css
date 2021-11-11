@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -13,4 +14,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#section {
+  height: 50vh;
+  margin: 1em 0;
+}
+
+#section video {
+  width: 100%;
+  height: 50vh;
+}
+
+.status {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.barcode {
+  margin: 1em 0;
+  font-size: 24px;
+  color: red;
+  text-align: center;
 }
